@@ -16,8 +16,8 @@
 <!--         jhipster-needle-maven-repository-->
         <repository>
             <id>my-local-repo</id>
-            <url>file://D:\OceDong\Library\maven-local-repository</url>
-<!--            <url>${user.home}/.m2/repository</url>-->
+<!--            <url>file://D:\OceDong\Library\maven-local-repository</url>-->
+            <url>file://${user.home}/.m2/repository</url>
         </repository>
     </repositories>
 
@@ -343,7 +343,7 @@
         <dependency>
             <groupId>com.ocedong</groupId>
             <artifactId>ocedong_java_common</artifactId>
-            <version>2.0-SNAPSHOT</version>
+            <version>3.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
